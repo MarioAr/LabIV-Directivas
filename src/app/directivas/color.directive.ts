@@ -7,7 +7,7 @@ export class ColorDirective implements OnInit {
 
   @Input() appColor: string;
   mensaje = 'Ingreso el color: ';
-  
+
   ngOnInit(): void {
     console.log(this.el);
     if ( !this.appColor ) {

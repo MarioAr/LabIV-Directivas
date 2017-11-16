@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ColorDirective } from './directivas/color.directive';
+import { OnDirective } from './directivas/on.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ColorDirective
+    ColorDirective,
+    OnDirective
   ],
   imports: [
     BrowserModule
